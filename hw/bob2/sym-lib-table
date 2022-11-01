@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name "bob-rescue")(type "Legacy")(uri "${KIPRJMOD}/bob-rescue.lib")(options "")(descr ""))
+  (lib (name "bob2")(type "KiCad")(uri "${KIPRJMOD}/bob2.kicad_sym")(options "")(descr ""))
+  (lib (name "sn74avch8t245pwr")(type "KiCad")(uri "${KIPRJMOD}/sn74avch8t245pwr.kicad_sym")(options "")(descr ""))
+)
