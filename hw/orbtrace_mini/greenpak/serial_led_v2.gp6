@@ -1,0 +1,885 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GPDProject version="18" oldestCompatibleVersion="9" GPDVersion="6.25.002" lastChange="28.03.2021 10:47">
+    <generalProjectSettings/>
+    <chip family="04" type="06" friendlyName="GreenPAK 6" partNumber="52" package="2">
+        <nvmData registerLenght="2048">EC 89 75 8F 85 79 60 E6 B5 9A E7 6E 5E B2 75 F0 B 3 5 21 20 87 81 6 A8 65 3D 96 15 1 0 30 2C A 0 7C CE 53 59 0 0 0 0 0 0 0 0 0 40 83 E3 38 10 59 0 0 0 0 0 0 0 0 C2 5B 0 0 BD 91 80 9C 0 39 4 0 70 2 2 32 32 32 33 33 B3 0 2 31 20 DA 1 DA 1 0 0 A 0 28 61 80 0 AC FF 40 1 60 F 0 1 A8 1 0 FF 80 80 80 80 0 0 C8 0 0 80 0 2 0 FE 0 FE 80 75 10 0 0 0 0 0 0 0 0 0 0 0 7 0 0 1 0 0 5 2 0 0 0 0 0 0 0 0 0 0 0 41 21 1 42 22 2 44 24 4 48 28 8 50 30 10 80 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</nvmData>
+        <checksum crc32="0xFFB923AE" version="3"/>
+        <asmModel>
+            <stateMachine>
+                <asmModel version="2">
+                    <states>
+                        <state index="0" label="State 0" outsTable="0" outsTableSize="0"/>
+                        <state index="1" label="State 1" outsTable="0" outsTableSize="0"/>
+                        <state index="2" label="State 2" outsTable="0" outsTableSize="0"/>
+                        <state index="3" label="State 3" outsTable="0" outsTableSize="0"/>
+                        <state index="4" label="State 4" outsTable="0" outsTableSize="0"/>
+                        <state index="5" label="State 5" outsTable="0" outsTableSize="0"/>
+                        <state index="6" label="State 6" outsTable="0" outsTableSize="0"/>
+                        <state index="7" label="State 7" outsTable="0" outsTableSize="0"/>
+                        <state index="8" label="State 8" outsTable="0" outsTableSize="0"/>
+                        <state index="9" label="State 9" outsTable="0" outsTableSize="0"/>
+                        <state index="10" label="State 10" outsTable="0" outsTableSize="0"/>
+                        <state index="11" label="State 11" outsTable="0" outsTableSize="0"/>
+                    </states>
+                    <transitions/>
+                    <outputs>
+                        <output index="0" name="OUT0"/>
+                        <output index="1" name="OUT1"/>
+                        <output index="2" name="OUT2"/>
+                        <output index="3" name="OUT3"/>
+                    </outputs>
+                </asmModel>
+            </stateMachine>
+        </asmModel>
+        <VDDItem id="0">
+            <item id="0" caption="VDD (PIN 1)">
+                <graphics pos="(-1380.00,-50.00)" angle="0" flipping="0" hidden="0" tOrigin="(20.00,10.00)"/>
+            </item>
+        </VDDItem>
+        <IOPad id="1" useCaseMode="1">
+            <item id="1" caption="PIN 2 (GPI)">
+                <graphics pos="(-1380.00,10.00)" angle="0" flipping="0" hidden="0" tOrigin="(20.00,10.00)"/>
+            </item>
+        </IOPad>
+        <IOPad id="2" useCaseMode="1">
+            <item id="2" caption="PIN 3 (SCL/GPIO0)">
+                <graphics pos="(-1621.25,110.00)" angle="0" flipping="0" hidden="0" tOrigin="(20.00,10.00)"/>
+            </item>
+        </IOPad>
+        <IOPad id="3" useCaseMode="1">
+            <item id="3" caption="PIN 4 (SDA/GPIO1)">
+                <graphics pos="(-1623.75,138.75)" angle="0" flipping="0" hidden="0" tOrigin="(20.00,10.00)"/>
+            </item>
+        </IOPad>
+        <IOPad id="4" useCaseMode="1">
+            <item id="4" caption="PIN 5 (GPIO2)">
+                <graphics pos="(-1095.00,-111.25)" angle="0" flipping="0" hidden="0" tOrigin="(20.00,10.00)"/>
+            </item>
+        </IOPad>
+        <IOPad id="5" useCaseMode="1">
+            <item id="5" caption="PIN 6 (GPIO3)">
+                <graphics pos="(-1096.25,-27.50)" angle="0" flipping="0" hidden="0" tOrigin="(20.00,10.00)"/>
+            </item>
+        </IOPad>
+        <item id="6" caption="GND (PIN 7)">
+            <graphics pos="(-1381.25,261.25)" angle="0" flipping="0" hidden="0" tOrigin="(20.00,10.00)"/>
+        </item>
+        <IOPad id="7" useCaseMode="1">
+            <item id="7" caption="PIN 8 (GPIO4)">
+                <graphics pos="(-1100.00,55.00)" angle="0" flipping="0" hidden="0" tOrigin="(20.00,10.00)"/>
+            </item>
+        </IOPad>
+        <IOPad id="8" useCaseMode="3">
+            <item id="8" caption="PIN 9 (GPIO5)">
+                <graphics pos="(-1102.50,121.25)" angle="0" flipping="0" hidden="0" tOrigin="(20.00,10.00)"/>
+            </item>
+        </IOPad>
+        <IOPad id="9" useCaseMode="3">
+            <item id="9" caption="PIN 10 (GPIO6)">
+                <graphics pos="(-1102.50,192.50)" angle="0" flipping="0" hidden="0" tOrigin="(20.00,10.00)"/>
+            </item>
+        </IOPad>
+        <IOPad id="10" useCaseMode="3">
+            <item id="10" caption="PIN 11 (GPIO7)">
+                <graphics pos="(-1103.75,253.75)" angle="0" flipping="0" hidden="0" tOrigin="(20.00,10.00)"/>
+            </item>
+        </IOPad>
+        <IOPad id="11" useCaseMode="2">
+            <item id="11" caption="PIN 12 (GPIO8)">
+                <graphics pos="(-1376.25,-133.75)" angle="180" flipping="3" hidden="0" tOrigin="(20.00,10.00)"/>
+            </item>
+        </IOPad>
+        <item id="12" caption="FILTER/EDGE DET">
+            <graphics pos="(-648.56,120.11)" angle="0" flipping="0" hidden="1" tOrigin="(27.50,15.00)"/>
+        </item>
+        <item id="13" caption="2-bit LUT0/DFF/LATCH0">
+            <graphics pos="(-222.56,448.61)" angle="0" flipping="0" hidden="0" tOrigin="(25.00,10.00)"/>
+        </item>
+        <LUT id="14" regularShape="0" mode="0">
+            <item id="14" caption="2-bit LUT1/DFF/LATCH1">
+                <graphics pos="(-840.06,-180.14)" angle="90" flipping="0" hidden="0" tOrigin="(20.00,15.00)"/>
+            </item>
+        </LUT>
+        <item id="15" caption="2-bit LUT2/PGEN">
+            <graphics pos="(-685.06,462.36)" angle="90" flipping="0" hidden="0" tOrigin="(20.00,15.00)"/>
+            <textLabel pos="(-27.00,74.43)" angle="-90.00" textColor="#ffff00ff" backgroundColor="#14141464">Brightness controller</textLabel>
+        </item>
+        <LUT id="16" regularShape="0" mode="0">
+            <item id="16" caption="3-bit LUT0/DFF/LATCH2">
+                <graphics pos="(-840.06,-108.89)" angle="90" flipping="0" hidden="0" tOrigin="(20.00,15.00)"/>
+            </item>
+        </LUT>
+        <LUT id="17" regularShape="0" mode="0">
+            <item id="17" caption="3-bit LUT1/DFF/LATCH3">
+                <graphics pos="(-840.06,-33.89)" angle="90" flipping="0" hidden="0" tOrigin="(20.00,15.00)"/>
+            </item>
+        </LUT>
+        <LUT id="18" regularShape="0" mode="0">
+            <item id="18" caption="3-bit LUT2/DFF/LATCH4">
+                <graphics pos="(-840.06,38.61)" angle="90" flipping="0" hidden="0" tOrigin="(20.00,15.00)"/>
+            </item>
+        </LUT>
+        <LUT id="19" regularShape="0" mode="0">
+            <item id="19" caption="3-bit LUT3/DFF/LATCH5">
+                <graphics pos="(-840.06,121.11)" angle="90" flipping="0" hidden="0" tOrigin="(20.00,15.00)"/>
+            </item>
+        </LUT>
+        <LUT id="20" regularShape="0" mode="0">
+            <item id="20" caption="3-bit LUT4/DFF/LATCH6/Shift Register 0">
+                <graphics pos="(-840.06,200.86)" angle="90" flipping="0" hidden="0" tOrigin="(20.00,15.00)"/>
+            </item>
+        </LUT>
+        <LUT id="21" regularShape="0" mode="0">
+            <item id="21" caption="3-bit LUT5/DFF/LATCH7/Shift Register 1">
+                <graphics pos="(-836.31,392.36)" angle="90" flipping="0" hidden="0" tOrigin="(20.00,15.00)"/>
+            </item>
+        </LUT>
+        <LUT id="22" regularShape="0" mode="0">
+            <item id="22" caption="3-bit LUT6/DFF/LATCH8/Shift Register 2">
+                <graphics pos="(-698.81,-106.39)" angle="90" flipping="0" hidden="0" tOrigin="(20.00,15.00)"/>
+            </item>
+        </LUT>
+        <LUT id="23" regularShape="0" mode="0">
+            <item id="23" caption="3-bit LUT7/DFF/LATCH9/Shift Register 3">
+                <graphics pos="(-705.06,121.11)" angle="90" flipping="0" hidden="0" tOrigin="(20.00,15.00)"/>
+            </item>
+        </LUT>
+        <LUT id="24" regularShape="0" mode="0">
+            <item id="24" caption="4-bit LUT0/DFF/LATCH16">
+                <graphics pos="(-388.81,436.11)" angle="90" flipping="0" hidden="0" tOrigin="(20.00,15.00)"/>
+            </item>
+        </LUT>
+        <item id="25" caption="MF0 (3-bit LUT8, DFF/LATCH10, 8-bit CNT0/DLY0/FSM0)">
+            <graphics pos="(-353.75,-326.00)" angle="0" flipping="0" hidden="0" tOrigin="(155.00,60.00)"/>
+            <textLabel pos="(76.84,-27.00)" angle="0.00" textColor="#ffff00ff" backgroundColor="#14141464">Bypass if serial in is present</textLabel>
+        </item>
+        <item id="26" caption="MF1 (3-bit LUT9, DFF/LATCH11, 8-bit CNT1/DLY1)">
+            <graphics pos="(-356.25,-113.75)" angle="0" flipping="0" hidden="0" tOrigin="(155.00,60.00)"/>
+            <textLabel pos="(98.36,-27.00)" angle="0.00" textColor="#ffff00ff" backgroundColor="#14141464">Generate bit selects</textLabel>
+        </item>
+        <item id="27" caption="MF2 (3-bit LUT10, DFF/LATCH12, 8-bit CNT2/DLY2)">
+            <graphics pos="(-337.50,86.25)" angle="0" flipping="0" hidden="0" tOrigin="(155.00,60.00)"/>
+            <textLabel pos="(98.39,-27.00)" angle="0.00" textColor="#ffff00ff" backgroundColor="#14141464">Generate byte clock</textLabel>
+        </item>
+        <item id="28" caption="MF3 (3-bit LUT11, DFF/LATCH13, 8-bit CNT3/DLY3)">
+            <graphics pos="(-250.00,-170.00)" angle="0" flipping="0" hidden="1" tOrigin="(155.00,60.00)"/>
+        </item>
+        <item id="29" caption="MF4 (3-bit LUT12, DFF/LATCH14, 8-bit CNT4/DLY4)">
+            <graphics pos="(-250.00,-10.00)" angle="0" flipping="0" hidden="1" tOrigin="(155.00,60.00)"/>
+        </item>
+        <item id="30" caption="MF5 (3-bit LUT13, DFF/LATCH15, 8-bit CNT5/DLY5)">
+            <graphics pos="(-1192.50,-238.75)" angle="0" flipping="0" hidden="1" tOrigin="(155.00,60.00)"/>
+        </item>
+        <LUT id="31" regularShape="0" mode="3">
+            <item id="31" caption="3-bit LUT8 (MF0)">
+                <graphics pos="(-118.75,-279.00)" angle="90" flipping="0" hidden="0" tOrigin="(20.00,15.00)"/>
+            </item>
+        </LUT>
+        <item id="32" caption="DFF/LATCH10 (MF0)">
+            <graphics pos="(-140.25,-291.50)" angle="0" flipping="0" hidden="1" tOrigin="(25.00,10.00)"/>
+        </item>
+        <CNTDLY id="33" externalClockFrequence="0" externalClockFreqUnit="kHz">
+            <item id="33" caption="8-bit CNT0/DLY0/FSM0 (MF0)">
+                <graphics pos="(-302.25,-281.50)" angle="0" flipping="0" hidden="0" tOrigin="(35.00,16.00)"/>
+            </item>
+        </CNTDLY>
+        <LUT id="34" regularShape="0" mode="0">
+            <item id="34" caption="3-bit LUT9 (MF1)">
+                <graphics pos="(-1022.25,228.75)" angle="90" flipping="0" hidden="1" tOrigin="(20.00,15.00)"/>
+            </item>
+        </LUT>
+        <item id="35" caption="DFF/LATCH11 (MF1)">
+            <graphics pos="(-142.75,-69.25)" angle="0" flipping="0" hidden="0" tOrigin="(25.00,10.00)"/>
+        </item>
+        <CNTDLY id="36" externalClockFrequence="0" externalClockFreqUnit="kHz">
+            <item id="36" caption="8-bit CNT1/DLY1 (MF1)">
+                <graphics pos="(-304.75,-69.25)" angle="0" flipping="0" hidden="0" tOrigin="(30.00,16.00)"/>
+            </item>
+        </CNTDLY>
+        <LUT id="37" regularShape="0" mode="0">
+            <item id="37" caption="3-bit LUT10 (MF2)">
+                <graphics pos="(-774.00,106.00)" angle="90" flipping="0" hidden="1" tOrigin="(20.00,15.00)"/>
+            </item>
+        </LUT>
+        <item id="38" caption="DFF/LATCH12 (MF2)">
+            <graphics pos="(-124.00,130.75)" angle="0" flipping="0" hidden="0" tOrigin="(25.00,10.00)"/>
+        </item>
+        <CNTDLY id="39" externalClockFrequence="0" externalClockFreqUnit="kHz">
+            <item id="39" caption="8-bit CNT2/DLY2 (MF2)">
+                <graphics pos="(-286.00,130.75)" angle="0" flipping="0" hidden="0" tOrigin="(30.00,16.00)"/>
+            </item>
+        </CNTDLY>
+        <LUT id="40" regularShape="0" mode="0">
+            <item id="40" caption="3-bit LUT11 (MF3)">
+                <graphics pos="(-115.00,-125.00)" angle="90" flipping="0" hidden="1" tOrigin="(20.00,15.00)"/>
+            </item>
+        </LUT>
+        <item id="41" caption="DFF/LATCH13 (MF3)">
+            <graphics pos="(-1410.00,300.00)" angle="0" flipping="0" hidden="1" tOrigin="(25.00,10.00)"/>
+        </item>
+        <CNTDLY id="42" externalClockFrequence="0" externalClockFreqUnit="kHz">
+            <item id="42" caption="8-bit CNT3/DLY3 (MF3)">
+                <graphics pos="(-198.50,-125.50)" angle="0" flipping="0" hidden="1" tOrigin="(30.00,16.00)"/>
+            </item>
+        </CNTDLY>
+        <LUT id="43" regularShape="0" mode="0">
+            <item id="43" caption="3-bit LUT12 (MF4)">
+                <graphics pos="(-550.00,430.00)" angle="90" flipping="0" hidden="0" tOrigin="(20.00,15.00)"/>
+            </item>
+        </LUT>
+        <item id="44" caption="DFF/LATCH14 (MF4)">
+            <graphics pos="(40.00,-360.00)" angle="0" flipping="0" hidden="1" tOrigin="(25.00,10.00)"/>
+        </item>
+        <CNTDLY id="45" externalClockFrequence="0" externalClockFreqUnit="kHz">
+            <item id="45" caption="8-bit CNT4/DLY4 (MF4)">
+                <graphics pos="(-198.50,34.50)" angle="0" flipping="0" hidden="1" tOrigin="(30.00,16.00)"/>
+            </item>
+        </CNTDLY>
+        <LUT id="46" regularShape="0" mode="0">
+            <item id="46" caption="3-bit LUT13 (MF5)">
+                <graphics pos="(-1057.50,-193.75)" angle="90" flipping="0" hidden="1" tOrigin="(20.00,15.00)"/>
+            </item>
+        </LUT>
+        <item id="47" caption="DFF/LATCH15 (MF5)">
+            <graphics pos="(-110.00,-200.00)" angle="0" flipping="0" hidden="1" tOrigin="(25.00,10.00)"/>
+        </item>
+        <CNTDLY id="48" externalClockFrequence="0" externalClockFreqUnit="kHz">
+            <item id="48" caption="8-bit CNT5/DLY5 (MF5)">
+                <graphics pos="(-217.50,321.50)" angle="0" flipping="0" hidden="0" tOrigin="(30.00,16.00)"/>
+                <textLabel pos="(-89.80,-27.00)" angle="0.00" textColor="#ffff00ff" backgroundColor="#14141464">Generate &gt;80us low pulse at end of stream</textLabel>
+            </item>
+        </CNTDLY>
+        <item id="49" caption="P DLY">
+            <graphics pos="(-688.56,-134.89)" angle="0" flipping="0" hidden="1" tOrigin="(17.50,10.00)"/>
+        </item>
+        <item id="50" caption="MS ACMP">
+            <graphics pos="(-1111.53,336.25)" angle="0" flipping="0" hidden="0" tOrigin="(67.50,75.00)"/>
+        </item>
+        <item id="60" caption="POR">
+            <graphics pos="(-802.00,-67.00)" angle="0" flipping="0" hidden="1" tOrigin="(17.50,10.00)"/>
+        </item>
+        <item id="61" caption="OSC0">
+            <graphics pos="(-1406.56,-339.75)" angle="0" flipping="0" hidden="0" tOrigin="(30.00,51.50)"/>
+        </item>
+        <item id="62" caption="OSC1">
+            <graphics pos="(-1408.06,-216.00)" angle="0" flipping="0" hidden="0" tOrigin="(30.00,25.00)"/>
+        </item>
+        <item id="63" caption="I2C">
+            <graphics pos="(-1512.50,69.75)" angle="0" flipping="0" hidden="0" tOrigin="(25.00,70.00)"/>
+        </item>
+        <EPG id="64">
+            <item id="64" caption="EPG">
+                <graphics pos="(-1047.00,-338.14)" angle="0" flipping="0" hidden="0" tOrigin="(25.00,45.00)"/>
+            </item>
+            <EpgWizardSettings>
+                <generators>
+                    <RawGenerator name="Manual 0" bits="11100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000" outputNumber="0"/>
+                    <RawGenerator name="Manual 1" bits="00011100000000000000000000000000000000000000000000000000000000000000000000000000000000000000" outputNumber="1"/>
+                    <RawGenerator name="Manual 2" bits="00000011100000000000000000000000000000000000000000000000000000000000000000000000000000000000" outputNumber="2"/>
+                    <RawGenerator name="Manual 3" bits="00000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000" outputNumber="7"/>
+                    <RawGenerator name="Manual 4" bits="00000000011100000000000000000000000000000000000000000000000000000000000000000000000000000000" outputNumber="3"/>
+                    <RawGenerator name="Manual 5" bits="00000000000011100000000000000000000000000000000000000000000000000000000000000000000000000000" outputNumber="4"/>
+                    <RawGenerator name="Manual 6" bits="01001001001001000000000000000000000000000000000000000000000000000000000000000000000000000000" outputNumber="5"/>
+                    <RawGenerator name="Manual 7" bits="10010010010010000000000000000000000000000000000000000000000000000000000000000000000000000000" outputNumber="6"/>
+                </generators>
+            </EpgWizardSettings>
+        </EPG>
+        <item id="65" caption="TEMP SENSOR">
+            <graphics pos="(-802.00,-135.00)" angle="0" flipping="0" hidden="1" tOrigin="(28.00,15.00)"/>
+        </item>
+        <wire output="0" input="969" autoRouting="1" pen="#ff8000ff;1.00;1;32;128" protected="1" CWLid="-1" wireText="VDD" wireState="1">
+            <points/>
+        </wire>
+        <wire output="358" input="1013" autoRouting="1" pen="#ff8000ff;1.00;1;32;128" protected="1" CWLid="7" wireText="NET7" wireState="0">
+            <points>(-1559.00,126.00); (-1543.00,126.00); (-1543.00,125.00); (-1533.00,125.00)</points>
+        </wire>
+        <wire output="359" input="1014" autoRouting="1" pen="#ff8000ff;1.00;1;32;128" protected="1" CWLid="8" wireText="NET8" wireState="0">
+            <points>(-1562.00,154.00); (-1543.00,154.00); (-1543.00,155.00); (-1533.00,155.00)</points>
+        </wire>
+        <wire output="42" input="1010" autoRouting="1" pen="#ff8000ff;1.00;1;32;128" protected="1" CWLid="1" wireText="OSC0/8" wireState="1">
+            <points/>
+        </wire>
+        <wire output="54" input="682" autoRouting="1" pen="#ff8000ff;1.00;1;32;128" protected="1" CWLid="11" wireText="OSC1" wireState="1">
+            <points/>
+        </wire>
+        <wire output="194" input="701" autoRouting="1" pen="#ff8000ff;1.00;1;32;128" protected="1" CWLid="6" wireText="nBSEL0" wireState="0">
+            <points>(-225.00,-54.00); (-164.00,-54.00)</points>
+        </wire>
+        <wire output="193" input="627" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="12" wireText="nBSEL1" wireState="1">
+            <points/>
+        </wire>
+        <wire output="54" input="684" autoRouting="1" pen="#ff8000ff;1.00;1;32;128" protected="1" CWLid="11" wireText="OSC1" wireState="1">
+            <points/>
+        </wire>
+        <wire output="196" input="704" autoRouting="1" pen="#ff8000ff;1.00;1;32;128" protected="1" CWLid="10" wireText="NET10" wireState="0">
+            <points>(-206.00,146.00); (-145.00,146.00)</points>
+        </wire>
+        <wire output="195" input="631" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="9" wireText="BYTE_CLK" wireState="1">
+            <points/>
+        </wire>
+        <wire output="195" input="1027" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="9" wireText="BYTE_CLK" wireState="1">
+            <points/>
+        </wire>
+        <wire output="53" input="261" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="13" wireText="OSC1G" wireState="1">
+            <points/>
+        </wire>
+        <wire output="376" input="262" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="16" wireText="NET16" wireState="0">
+            <points>(-334.00,452.00); (-261.00,452.00); (-261.00,454.00); (-244.00,454.00)</points>
+        </wire>
+        <wire output="194" input="996" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="6" wireText="nBSEL0" wireState="1">
+            <points/>
+        </wire>
+        <wire output="193" input="997" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="12" wireText="nBSEL1" wireState="1">
+            <points/>
+        </wire>
+        <wire output="54" input="642" autoRouting="1" pen="#ff8000ff;1.00;1;32;128" protected="1" CWLid="11" wireText="OSC1" wireState="1">
+            <points/>
+        </wire>
+        <wire output="418" input="643" autoRouting="1" pen="#2dffaaff;1.00;1;32;128" protected="0" CWLid="17" wireText="END" wireState="1">
+            <points/>
+        </wire>
+        <wire output="202" input="999" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="18" wireText="END_RESET" wireState="1">
+            <points/>
+        </wire>
+        <wire output="202" input="1028" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="18" wireText="END_RESET" wireState="1">
+            <points/>
+        </wire>
+        <wire output="202" input="625" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="18" wireText="END_RESET" wireState="1">
+            <points/>
+        </wire>
+        <wire output="202" input="629" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="18" wireText="END_RESET" wireState="1">
+            <points/>
+        </wire>
+        <wire output="202" input="630" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="18" wireText="END_RESET" wireState="1">
+            <points/>
+        </wire>
+        <wire output="202" input="626" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="18" wireText="END_RESET" wireState="1">
+            <points/>
+        </wire>
+        <wire output="193" input="970" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="12" wireText="nBSEL1" wireState="1">
+            <points/>
+        </wire>
+        <wire output="202" input="971" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="18" wireText="END_RESET" wireState="1">
+            <points/>
+        </wire>
+        <wire output="0" input="1026" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="-1" wireText="VDD" wireState="1">
+            <points/>
+        </wire>
+        <wire output="365" input="1016" autoRouting="1" pen="#ff8000ff;1.00;1;32;128" protected="1" CWLid="33" wireText="V3.3" wireState="1">
+            <points/>
+        </wire>
+        <wire output="364" input="1017" autoRouting="1" pen="#ff8000ff;1.00;1;32;128" protected="1" CWLid="32" wireText="V2.5" wireState="1">
+            <points/>
+        </wire>
+        <wire output="363" input="1018" autoRouting="1" pen="#ff8000ff;1.00;1;32;128" protected="1" CWLid="29" wireText="V1.1" wireState="1">
+            <points/>
+        </wire>
+        <wire output="0" input="1025" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="-1" wireText="VDD" wireState="1">
+            <points/>
+        </wire>
+        <wire output="381" input="1006" autoRouting="1" pen="#ff8000ff;1.00;1;32;128" protected="1" CWLid="0" wireText="BYPASS_EN" wireState="0">
+            <points>(-212.00,-266.00); (-192.25,-266.00); (-192.25,-218.00); (-99.00,-218.00); (-99.00,-224.00)</points>
+        </wire>
+        <wire output="357" input="1002" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="5" wireText="SERIAL_IN" wireState="1">
+            <points/>
+        </wire>
+        <wire output="380" input="968" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="14" wireText="SERIAL_OUT" wireState="1">
+            <points/>
+        </wire>
+        <wire output="357" input="1000" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="5" wireText="SERIAL_IN" wireState="1">
+            <points/>
+        </wire>
+        <wire output="84" input="1001" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="15" wireText="SERIAL_GEN" wireState="1">
+            <points/>
+        </wire>
+        <wire output="363" input="1019" autoRouting="1" pen="#ff8000ff;1.00;1;32;128" protected="1" CWLid="29" wireText="V1.1" wireState="1">
+            <points/>
+        </wire>
+        <wire output="199" input="998" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="28" wireText="NET28" wireState="0">
+            <points>(-495.00,446.00); (-411.00,446.00); (-411.00,447.00); (-405.00,447.00)</points>
+        </wire>
+        <wire output="367" input="637" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="34" wireText="NET34" wireState="0">
+            <points>(-630.00,478.00); (-572.00,478.00); (-572.00,459.00); (-566.00,459.00)</points>
+        </wire>
+        <wire output="411" input="542" autoRouting="1" pen="#2dffaaff;1.00;1;32;128" protected="0" CWLid="23" wireText="LED0" wireState="1">
+            <points/>
+        </wire>
+        <wire output="416" input="543" autoRouting="1" pen="#2dffaaff;1.00;1;32;128" protected="0" CWLid="35" wireText="RED" wireState="1">
+            <points/>
+        </wire>
+        <wire output="411" input="972" autoRouting="1" pen="#2dffaaff;1.00;1;32;128" protected="0" CWLid="23" wireText="LED0" wireState="1">
+            <points/>
+        </wire>
+        <wire output="417" input="973" autoRouting="1" pen="#2dffaaff;1.00;1;32;128" protected="0" CWLid="36" wireText="GREEN" wireState="1">
+            <points/>
+        </wire>
+        <wire output="360" input="974" autoRouting="1" pen="#2dffaaff;1.00;1;32;128" protected="0" CWLid="26" wireText="DONE" wireState="1">
+            <points/>
+        </wire>
+        <wire output="412" input="975" autoRouting="1" pen="#2dffaaff;1.00;1;32;128" protected="0" CWLid="22" wireText="LED1" wireState="1">
+            <points/>
+        </wire>
+        <wire output="417" input="976" autoRouting="1" pen="#2dffaaff;1.00;1;32;128" protected="0" CWLid="36" wireText="GREEN" wireState="1">
+            <points/>
+        </wire>
+        <wire output="405" input="977" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="37" wireText="V3.3_OK" wireState="1">
+            <points/>
+        </wire>
+        <wire output="413" input="978" autoRouting="1" pen="#2dffaaff;1.00;1;32;128" protected="0" CWLid="19" wireText="LED2" wireState="1">
+            <points/>
+        </wire>
+        <wire output="417" input="979" autoRouting="1" pen="#2dffaaff;1.00;1;32;128" protected="0" CWLid="36" wireText="GREEN" wireState="1">
+            <points/>
+        </wire>
+        <wire output="406" input="980" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="38" wireText="V2.5_OK" wireState="1">
+            <points/>
+        </wire>
+        <wire output="417" input="982" autoRouting="1" pen="#2dffaaff;1.00;1;32;128" protected="0" CWLid="36" wireText="GREEN" wireState="1">
+            <points/>
+        </wire>
+        <wire output="414" input="981" autoRouting="1" pen="#2dffaaff;1.00;1;32;128" protected="0" CWLid="21" wireText="LED3" wireState="1">
+            <points/>
+        </wire>
+        <wire output="408" input="986" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="20" wireText="V1.1_OVER" wireState="1">
+            <points/>
+        </wire>
+        <wire output="416" input="985" autoRouting="1" pen="#2dffaaff;1.00;1;32;128" protected="0" CWLid="35" wireText="RED" wireState="1">
+            <points/>
+        </wire>
+        <wire output="414" input="984" autoRouting="1" pen="#2dffaaff;1.00;1;32;128" protected="0" CWLid="21" wireText="LED3" wireState="1">
+            <points/>
+        </wire>
+        <wire output="368" input="991" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="24" wireText="NET24" wireState="0">
+            <points>(-782.00,-94.00); (-724.00,-94.00); (-724.00,-91.00); (-718.00,-91.00)</points>
+        </wire>
+        <wire output="158" input="992" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="25" wireText="NET25" wireState="0">
+            <points>(-782.00,-165.00); (-724.00,-165.00); (-724.00,-102.00); (-718.00,-102.00)</points>
+        </wire>
+        <wire output="369" input="990" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="27" wireText="NET27" wireState="0">
+            <points>(-782.00,-19.00); (-724.00,-19.00); (-724.00,-80.00); (-718.00,-80.00)</points>
+        </wire>
+        <wire output="370" input="995" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="30" wireText="NET30" wireState="0">
+            <points>(-782.00,54.00); (-731.00,54.00); (-731.00,125.00); (-725.00,125.00)</points>
+        </wire>
+        <wire output="371" input="994" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="31" wireText="NET31" wireState="0">
+            <points>(-782.00,136.00); (-725.00,136.00)</points>
+        </wire>
+        <wire output="372" input="993" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="40" wireText="NET40" wireState="0">
+            <points>(-782.00,216.00); (-731.00,216.00); (-731.00,147.00); (-725.00,147.00)</points>
+        </wire>
+        <wire output="375" input="638" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="41" wireText="NET41" wireState="0">
+            <points>(-647.00,136.00); (-594.50,136.00); (-594.50,446.00); (-566.00,446.00)</points>
+        </wire>
+        <wire output="374" input="639" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="42" wireText="NET42" wireState="0">
+            <points>(-640.00,-91.00); (-579.00,-91.00); (-579.00,432.00); (-566.00,432.00)</points>
+        </wire>
+        <wire output="373" input="983" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="39" wireText="V1.1_OK" wireState="1">
+            <points/>
+        </wire>
+        <wire output="407" input="987" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="43" wireText="NET43" wireState="0">
+            <points>(-957.00,421.00); (-852.00,421.00)</points>
+        </wire>
+        <wire output="408" input="988" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="20" wireText="V1.1_OVER" wireState="1">
+            <points/>
+        </wire>
+    </chip>
+    <emulatorConfiguration version="1">
+        <settings>
+            <autoApply value="0"/>
+            <platformSelector id="1"/>
+        </settings>
+        <platform id="0" friendlyName="GreenPAK DIP Development Platform">
+            <lastConfiguration modified="0">
+                <SaveEmulator Name="Default">
+                    <PowerOptions synced="0"/>
+                    <PowerSwitch internalPower="1" externalPower="0"/>
+                    <ExpansionConnector></ExpansionConnector>
+                    <TestPoints/>
+                    <I2C slaveAddress="-1"/>
+                </SaveEmulator>
+            </lastConfiguration>
+            <savedConfigurations/>
+        </platform>
+        <platform id="1" friendlyName="GreenPAK Advanced Development Platform">
+            <lastConfiguration modified="1">
+                <SaveEmulator Name="Default">
+                    <PowerOptions synced="0"/>
+                    <PowerSwitch internalPower="1" externalPower="0"/>
+                    <ExpansionConnector>1:0;2:0;3:0;4:0;5:0;6:0;11:0;12:0;13:0;14:0;15:0;16:1</ExpansionConnector>
+                    <TestPoints>
+                        <TPC ID="1" Type="8">
+                            <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="81" GlobalLink="0"/>
+                            <GeneratorOpt GenType="5">
+                                <constantVoltageGenerator v="4.999878e+00|4">
+                                    <abstractGenerator repeat="0" repeatCount="0" shownPeriod="0" startPoint="0.000000e+00|5" stopPoint="1.000000e-01|5" pauseState="0" prestartState="1" outputState="0" prestartDelay="0.000000e+00|5" endState="0" link="0" sync="0"/>
+                                </constantVoltageGenerator>
+                            </GeneratorOpt>
+                        </TPC>
+                        <TPC ID="2" Type="1">
+                            <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="87" GlobalLink="1"/>
+                        </TPC>
+                        <TPC ID="3" Type="4">
+                            <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="69" GlobalLink="1"/>
+                        </TPC>
+                        <TPC ID="4" Type="4">
+                            <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="82" GlobalLink="1"/>
+                        </TPC>
+                        <TPC ID="5" Type="6">
+                            <BaseOption LEDEnable="1" LEDInvertion="0" HotKey="84" GlobalLink="1"/>
+                            <ButtonSettings UpSide="1" DownSide="0" LatchMode="1" DefaultConnection="1" ConnectedSide="1"/>
+                        </TPC>
+                        <TPC ID="6" Type="1">
+                            <BaseOption LEDEnable="1" LEDInvertion="0" HotKey="89" GlobalLink="1"/>
+                        </TPC>
+                        <TPC ID="11" Type="3">
+                            <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="-1" GlobalLink="1"/>
+                        </TPC>
+                        <TPC ID="12" Type="1">
+                            <BaseOption LEDEnable="1" LEDInvertion="0" HotKey="65" GlobalLink="1"/>
+                        </TPC>
+                        <TPC ID="13" Type="6">
+                            <BaseOption LEDEnable="1" LEDInvertion="0" HotKey="83" GlobalLink="1"/>
+                            <ButtonSettings UpSide="1" DownSide="0" LatchMode="1" DefaultConnection="1" ConnectedSide="1"/>
+                        </TPC>
+                        <TPC ID="14" Type="6">
+                            <BaseOption LEDEnable="1" LEDInvertion="0" HotKey="68" GlobalLink="1"/>
+                            <ButtonSettings UpSide="1" DownSide="0" LatchMode="1" DefaultConnection="1" ConnectedSide="1"/>
+                        </TPC>
+                        <TPC ID="15" Type="6">
+                            <BaseOption LEDEnable="1" LEDInvertion="0" HotKey="70" GlobalLink="1"/>
+                            <ButtonSettings UpSide="1" DownSide="0" LatchMode="1" DefaultConnection="1" ConnectedSide="1"/>
+                        </TPC>
+                        <TPC ID="16" Type="1">
+                            <BaseOption LEDEnable="1" LEDInvertion="0" HotKey="71" GlobalLink="1"/>
+                        </TPC>
+                    </TestPoints>
+                    <I2C slaveAddress="-1"/>
+                </SaveEmulator>
+            </lastConfiguration>
+            <savedConfigurations/>
+        </platform>
+        <platform id="2" friendlyName="GreenPAK Pro Development Platform">
+            <lastConfiguration modified="0">
+                <SaveEmulator Name="Default">
+                    <PowerOptions synced="0"/>
+                    <PowerSwitch internalPower="1" externalPower="0"/>
+                    <ExpansionConnector></ExpansionConnector>
+                    <TestPoints/>
+                    <I2C slaveAddress="-1"/>
+                </SaveEmulator>
+            </lastConfiguration>
+            <savedConfigurations/>
+        </platform>
+        <platform id="5" friendlyName="GreenPAK Advanced Development Platform w/ Logic Level Adapter #1">
+            <lastConfiguration modified="0">
+                <SaveEmulator Name="Default">
+                    <PowerOptions synced="0"/>
+                    <PowerSwitch internalPower="1" externalPower="0"/>
+                    <ExpansionConnector></ExpansionConnector>
+                    <TestPoints/>
+                    <I2C slaveAddress="-1"/>
+                </SaveEmulator>
+            </lastConfiguration>
+            <savedConfigurations/>
+        </platform>
+    </emulatorConfiguration>
+    <simulationConfiguration version="12" compatibleVersion="12" activePreset="-1">
+        <draftPreset>
+            <simulationPreset index="-1" name="Default" customGroupLayout="true" customParametricDcGroupLayout="false">
+                <transientAnalyses>
+                    <transientAnalysis max="2.000000e+01|6" start="0.000000e+00|5" step="2.000000e+01|6" stop="1.200000e+01|5" temp="25" uic="false" vdd="3.300000e+00|4"/>
+                </transientAnalyses>
+                <parametricDcAnalyses/>
+                <pinProbes>
+                    <pinProbe instrumentId="19" measurementFlags="1">
+                        <IdDto category="2" componentType="16" componentNumber="1" pinNumber="2"/>
+                    </pinProbe>
+                    <pinProbe instrumentId="20" measurementFlags="1">
+                        <IdDto category="2" componentType="16" componentNumber="2" pinNumber="2"/>
+                    </pinProbe>
+                    <pinProbe instrumentId="21" measurementFlags="1">
+                        <IdDto category="0" componentType="61" componentNumber="0" pinNumber="64"/>
+                    </pinProbe>
+                    <pinProbe instrumentId="22" measurementFlags="1">
+                        <IdDto category="2" componentType="16" componentNumber="5" pinNumber="0"/>
+                    </pinProbe>
+                    <pinProbe instrumentId="23" measurementFlags="1">
+                        <IdDto category="1" componentType="8" componentNumber="0" pinNumber="0"/>
+                    </pinProbe>
+                    <pinProbe instrumentId="24" measurementFlags="1">
+                        <IdDto category="1" componentType="9" componentNumber="0" pinNumber="0"/>
+                    </pinProbe>
+                    <pinProbe instrumentId="25" measurementFlags="1">
+                        <IdDto category="1" componentType="7" componentNumber="0" pinNumber="0"/>
+                    </pinProbe>
+                    <pinProbe instrumentId="26" measurementFlags="1">
+                        <IdDto category="1" componentType="12" componentNumber="0" pinNumber="0"/>
+                    </pinProbe>
+                    <pinProbe instrumentId="27" measurementFlags="1">
+                        <IdDto category="0" componentType="62" componentNumber="0" pinNumber="0"/>
+                    </pinProbe>
+                    <pinProbe instrumentId="28" measurementFlags="1">
+                        <IdDto category="0" componentType="62" componentNumber="0" pinNumber="1"/>
+                    </pinProbe>
+                    <pinProbe instrumentId="29" measurementFlags="1">
+                        <IdDto category="0" componentType="62" componentNumber="0" pinNumber="2"/>
+                    </pinProbe>
+                    <pinProbe instrumentId="30" measurementFlags="1">
+                        <IdDto category="0" componentType="62" componentNumber="0" pinNumber="16"/>
+                    </pinProbe>
+                </pinProbes>
+                <groups>
+                    <group name="EPG -&gt; Current Byte ID">
+                        <waveforms>
+                            <WaveformIdData analysisType="0" pinIdStr="0;61;0;64" xAxisBinding="0;-1;-1;-1;-1">
+                                <parameters/>
+                            </WaveformIdData>
+                        </waveforms>
+                    </group>
+                    <group name="8-bit CNT1/DLY1 (MF1) -&gt; Counted Value">
+                        <waveforms>
+                            <WaveformIdData analysisType="0" pinIdStr="2;16;1;2" xAxisBinding="0;-1;-1;-1;-1">
+                                <parameters/>
+                            </WaveformIdData>
+                        </waveforms>
+                    </group>
+                    <group name="8-bit CNT2/DLY2 (MF2) -&gt; Counted Value">
+                        <waveforms>
+                            <WaveformIdData analysisType="0" pinIdStr="2;16;2;2" xAxisBinding="0;-1;-1;-1;-1">
+                                <parameters/>
+                            </WaveformIdData>
+                        </waveforms>
+                    </group>
+                    <group name="GreenPAK -&gt; NET18">
+                        <waveforms>
+                            <WaveformIdData analysisType="0" pinIdStr="2;16;5;0" xAxisBinding="0;-1;-1;-1;-1">
+                                <parameters/>
+                            </WaveformIdData>
+                        </waveforms>
+                    </group>
+                    <group name="GreenPAK -&gt; 3-L0 -&gt; Z">
+                        <waveforms>
+                            <WaveformIdData analysisType="0" pinIdStr="1;7;0;0" xAxisBinding="0;-1;-1;-1;-1">
+                                <parameters/>
+                            </WaveformIdData>
+                        </waveforms>
+                    </group>
+                    <group name="GreenPAK -&gt; 4-bit LUT0 -&gt; OUT">
+                        <waveforms>
+                            <WaveformIdData analysisType="0" pinIdStr="1;8;0;0" xAxisBinding="0;-1;-1;-1;-1">
+                                <parameters/>
+                            </WaveformIdData>
+                        </waveforms>
+                    </group>
+                    <group name="GreenPAK -&gt; DFF 0 -&gt; Q">
+                        <waveforms>
+                            <WaveformIdData analysisType="0" pinIdStr="1;9;0;0" xAxisBinding="0;-1;-1;-1;-1">
+                                <parameters/>
+                            </WaveformIdData>
+                        </waveforms>
+                    </group>
+                    <group name="GreenPAK -&gt; PGEN -&gt; OUT">
+                        <waveforms>
+                            <WaveformIdData analysisType="0" pinIdStr="1;12;0;0" xAxisBinding="0;-1;-1;-1;-1">
+                                <parameters/>
+                            </WaveformIdData>
+                        </waveforms>
+                    </group>
+                    <group name="GreenPAK -&gt; MS ACMP -&gt; OUT CH0">
+                        <waveforms>
+                            <WaveformIdData analysisType="0" pinIdStr="0;62;0;0" xAxisBinding="0;-1;-1;-1;-1">
+                                <parameters/>
+                            </WaveformIdData>
+                        </waveforms>
+                    </group>
+                    <group name="GreenPAK -&gt; MS ACMP -&gt; OUT CH1">
+                        <waveforms>
+                            <WaveformIdData analysisType="0" pinIdStr="0;62;0;1" xAxisBinding="0;-1;-1;-1;-1">
+                                <parameters/>
+                            </WaveformIdData>
+                        </waveforms>
+                    </group>
+                    <group name="GreenPAK -&gt; MS ACMP -&gt; OUT CH2">
+                        <waveforms>
+                            <WaveformIdData analysisType="0" pinIdStr="0;62;0;2" xAxisBinding="0;-1;-1;-1;-1">
+                                <parameters/>
+                            </WaveformIdData>
+                        </waveforms>
+                    </group>
+                    <group name="GreenPAK -&gt; MS ACMP -&gt; DATA READY">
+                        <waveforms>
+                            <WaveformIdData analysisType="0" pinIdStr="0;62;0;16" xAxisBinding="0;-1;-1;-1;-1">
+                                <parameters/>
+                            </WaveformIdData>
+                        </waveforms>
+                    </group>
+                </groups>
+                <parametricDcGroups/>
+                <waveforms>
+                    <waveform>
+                        <waveformSetup penColor="#fff940" penWidth="2" style="0" attributes="1" symbol="-1" symSize="6" symColor="#ff0000"/>
+                        <WaveformIdData analysisType="0" pinIdStr="0;61;0;64" xAxisBinding="0;-1;-1;-1;-1">
+                            <parameters/>
+                        </WaveformIdData>
+                    </waveform>
+                    <waveform>
+                        <waveformSetup penColor="#fd6bfa" penWidth="2" style="0" attributes="1" symbol="-1" symSize="6" symColor="#ff0000"/>
+                        <WaveformIdData analysisType="0" pinIdStr="0;62;0;0" xAxisBinding="0;-1;-1;-1;-1">
+                            <parameters/>
+                        </WaveformIdData>
+                    </waveform>
+                    <waveform>
+                        <waveformSetup penColor="#f66a21" penWidth="2" style="0" attributes="1" symbol="-1" symSize="6" symColor="#ff0000"/>
+                        <WaveformIdData analysisType="0" pinIdStr="0;62;0;1" xAxisBinding="0;-1;-1;-1;-1">
+                            <parameters/>
+                        </WaveformIdData>
+                    </waveform>
+                    <waveform>
+                        <waveformSetup penColor="#5cd4ae" penWidth="2" style="0" attributes="1" symbol="-1" symSize="6" symColor="#ff0000"/>
+                        <WaveformIdData analysisType="0" pinIdStr="0;62;0;2" xAxisBinding="0;-1;-1;-1;-1">
+                            <parameters/>
+                        </WaveformIdData>
+                    </waveform>
+                    <waveform>
+                        <waveformSetup penColor="#fff940" penWidth="2" style="0" attributes="1" symbol="-1" symSize="6" symColor="#ff0000"/>
+                        <WaveformIdData analysisType="0" pinIdStr="0;62;0;16" xAxisBinding="0;-1;-1;-1;-1">
+                            <parameters/>
+                        </WaveformIdData>
+                    </waveform>
+                    <waveform>
+                        <waveformSetup penColor="#46f8ff" penWidth="2" style="0" attributes="1" symbol="-1" symSize="6" symColor="#ff0000"/>
+                        <WaveformIdData analysisType="0" pinIdStr="1;7;0;0" xAxisBinding="0;-1;-1;-1;-1">
+                            <parameters/>
+                        </WaveformIdData>
+                    </waveform>
+                    <waveform>
+                        <waveformSetup penColor="#26e056" penWidth="2" style="0" attributes="1" symbol="-1" symSize="6" symColor="#ff0000"/>
+                        <WaveformIdData analysisType="0" pinIdStr="1;8;0;0" xAxisBinding="0;-1;-1;-1;-1">
+                            <parameters/>
+                        </WaveformIdData>
+                    </waveform>
+                    <waveform>
+                        <waveformSetup penColor="#2e8eff" penWidth="2" style="0" attributes="1" symbol="-1" symSize="6" symColor="#ff0000"/>
+                        <WaveformIdData analysisType="0" pinIdStr="1;9;0;0" xAxisBinding="0;-1;-1;-1;-1">
+                            <parameters/>
+                        </WaveformIdData>
+                    </waveform>
+                    <waveform>
+                        <waveformSetup penColor="#9bc74d" penWidth="2" style="0" attributes="1" symbol="-1" symSize="6" symColor="#ff0000"/>
+                        <WaveformIdData analysisType="0" pinIdStr="1;12;0;0" xAxisBinding="0;-1;-1;-1;-1">
+                            <parameters/>
+                        </WaveformIdData>
+                    </waveform>
+                    <waveform>
+                        <waveformSetup penColor="#ff5b72" penWidth="2" style="0" attributes="1" symbol="-1" symSize="6" symColor="#ff0000"/>
+                        <WaveformIdData analysisType="0" pinIdStr="2;16;1;2" xAxisBinding="0;-1;-1;-1;-1">
+                            <parameters/>
+                        </WaveformIdData>
+                    </waveform>
+                    <waveform>
+                        <waveformSetup penColor="#af58ff" penWidth="2" style="0" attributes="1" symbol="-1" symSize="6" symColor="#ff0000"/>
+                        <WaveformIdData analysisType="0" pinIdStr="2;16;2;2" xAxisBinding="0;-1;-1;-1;-1">
+                            <parameters/>
+                        </WaveformIdData>
+                    </waveform>
+                    <waveform>
+                        <waveformSetup penColor="#fda740" penWidth="2" style="0" attributes="1" symbol="-1" symSize="6" symColor="#ff0000"/>
+                        <WaveformIdData analysisType="0" pinIdStr="2;16;5;0" xAxisBinding="0;-1;-1;-1;-1">
+                            <parameters/>
+                        </WaveformIdData>
+                    </waveform>
+                </waveforms>
+                <components>
+                    <ground number="1" name="GND">
+                        <componentUiSettings isFlippedHorizontally="false" isFlippedVertically="false" visible="true" position="(-1627.73;20.1569)" rotationState="0" sceneIndex="0"/>
+                        <componentSpec manufacturer="Generic" partNumber="Generic"/>
+                    </ground>
+                    <ground number="2" name="GND">
+                        <componentUiSettings isFlippedHorizontally="true" isFlippedVertically="false" visible="true" position="(-1471.58;328.75)" rotationState="0" sceneIndex="0"/>
+                        <componentSpec manufacturer="Generic" partNumber="Generic"/>
+                    </ground>
+                    <voltageSource number="1" name="V1" hasRc="true" internalResistance="1.000000e+01|4" internalCapacitance="1.000000e+02|7" showOnePeriod="false" hasLimitedVoltage="false" preStartDelay="0.000000e+00|5" dcAnalysisVoltage="3.300000e+00|4">
+                        <componentUiSettings isFlippedHorizontally="false" isFlippedVertically="false" visible="true" position="(-1552;-60.6667)" rotationState="0" sceneIndex="0"/>
+                        <componentSpec manufacturer="Generic" partNumber="Generic"/>
+                        <signal>
+                            <ramp voltage="3.300000e+00|4" rampTime="1.000000e+00|5"/>
+                        </signal>
+                    </voltageSource>
+                </components>
+                <networks>
+                    <network networkId="4" name="NET4">
+                        <connections>
+                            <connection connectionType="0" routingType="0" sceneIndex="0">
+                                <from>
+                                    <IdDto category="100" componentType="45" componentNumber="0" pinNumber="7"/>
+                                </from>
+                                <to>
+                                    <IdDto category="5" componentType="0" componentNumber="2" pinNumber="0"/>
+                                </to>
+                                <path>
+                                    <point value="(-1404;272)"/>
+                                    <point value="(-1456;272)"/>
+                                    <point value="(-1456;307)"/>
+                                </path>
+                            </connection>
+                        </connections>
+                    </network>
+                    <network networkId="3" name="NET3">
+                        <connections>
+                            <connection connectionType="0" routingType="0" sceneIndex="0">
+                                <from>
+                                    <IdDto category="5" componentType="43" componentNumber="1" pinNumber="1"/>
+                                </from>
+                                <to>
+                                    <IdDto category="5" componentType="0" componentNumber="1" pinNumber="0"/>
+                                </to>
+                                <path>
+                                    <point value="(-1574;-40)"/>
+                                    <point value="(-1612;-40)"/>
+                                    <point value="(-1612;-2)"/>
+                                </path>
+                            </connection>
+                        </connections>
+                    </network>
+                    <network networkId="2" name="NET2">
+                        <connections>
+                            <connection connectionType="0" routingType="0" sceneIndex="0">
+                                <from>
+                                    <IdDto category="100" componentType="45" componentNumber="0" pinNumber="1"/>
+                                </from>
+                                <to>
+                                    <IdDto category="5" componentType="43" componentNumber="1" pinNumber="0"/>
+                                </to>
+                                <path>
+                                    <point value="(-1403;-40)"/>
+                                    <point value="(-1489;-40)"/>
+                                </path>
+                            </connection>
+                        </connections>
+                    </network>
+                </networks>
+            </simulationPreset>
+        </draftPreset>
+        <simulationPresets/>
+    </simulationConfiguration>
+    <projectData>
+        <specs>
+            <lastModify lastModifyValue="16.03.2021 13:52:47"/>
+            <vddSpecs vddMin="5" vddTyp="5" vddMax="5"/>
+            <tempSpecs tempMin="25" tempTyp="25" tempMax="25"/>
+        </specs>
+        <projectDataFields>
+            <textLineDataField name="Customer&#10;Name:" id="2" text=""/>
+            <textLineDataField name="Customer&#10;Project Name:" id="3" text=""/>
+            <textLineDataField name="Customer&#10;Project Number:" id="4" text=""/>
+            <textLineDataField name="Customer&#10;Version Number:" id="5" text=""/>
+            <multiTextLineDataField>
+                <textLineDataField name="Notes:" id="6" text=""/>
+            </multiTextLineDataField>
+        </projectDataFields>
+    </projectData>
+    <i2cTool>
+        <i2cDebugger version="1"/>
+        <i2cStepper version="1" rowCount="0"/>
+    </i2cTool>
+</GPDProject>
